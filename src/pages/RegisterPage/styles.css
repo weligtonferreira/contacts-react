@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+}
+
+.register-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5rem;
+
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background-color: white;
+  box-shadow: var(--long-shadow);
+}
+
+.register-form-container p {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.inputs-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.input-field-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.4rem;
+
+  width: 18rem;
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+  background-color: var(--input-color);
+}
+
+.input-field-container input {
+  color: var(--text-color);
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: var(--primary-font);
+}
+
+.input-field-container input:-webkit-autofill {
+  -webkit-text-fill-color: var(--text-color);
+  -webkit-box-shadow: 0 0 0 30px var(--input-color) inset;
+}
+
+.buttons-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  width: 100%;
+}
